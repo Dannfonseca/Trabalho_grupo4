@@ -1,7 +1,7 @@
 Qual ator apareceu em mais episódios?  
 SELECT Atores, Participacoes from personagens  
 order by Participacoes desc  
-limit 1 ;    
+limit 3 ;    
   
 ----------------------------------------------------------------------------------------------------------------------------------------------  
 Gabriel respondeu metade        |     select Participacoes, Atores from personagens;   
