@@ -4,7 +4,7 @@ order by Participacoes desc
 limit 3 ;    
     
 ----------------------------------------------------------------------------------------------------------------------------------------------  
-Qual episódio com menor duração?  
+Qual episódio com maior duração?  
 select Titulo_ep,Temporada ,Ep_temporada, Duracao from episodios_got  
 order by Duracao desc  
 limit 1;    
