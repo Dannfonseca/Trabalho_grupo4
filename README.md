@@ -2,19 +2,12 @@ Qual ator apareceu em mais episódios?
 SELECT Atores, Participacoes from personagens  
 order by Participacoes desc  
 limit 3 ;    
-  
-----------------------------------------------------------------------------------------------------------------------------------------------  
-Gabriel respondeu metade        |     select Participacoes, Atores from personagens;   
-  
-  
+    
 ----------------------------------------------------------------------------------------------------------------------------------------------  
 Qual episódio com menor duração?  
 select Titulo_ep,Temporada ,Ep_temporada, Duracao from episodios_got  
 order by Duracao desc  
 limit 1;    
-  
-----------------------------------------------------------------------------------------------------------------------------------------------  
-Qual região com mais casas?  
   
   
 ----------------------------------------------------------------------------------------------------------------------------------------------  
