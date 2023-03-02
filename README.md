@@ -1,3 +1,5 @@
+[Link para visualização da apresentação do projeto](https://www.canva.com/design/DAFbxA7mwsw/cFhP-ZCdNYL3HtN2hTXz2A/view?utm_content=DAFbxA7mwsw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 Qual ator apareceu em mais episódios?  
 SELECT Atores, Participacoes from personagens  
 order by Participacoes desc  
@@ -23,7 +25,8 @@ SELECT Escritor_1, Count(*) as QtdRepeticoes FROM episodios_got
 GROUP BY Escritor_1  
 HAVING Count(*) > 1  
 order by QtdRepeticoes desc  
-limit 1;    
+limit 1;   
+
 ----------------------------------------------------------------------------------------------------------------------------------------------  
 Quais as casas da região "North"?  
 SELECT * FROM got.casas_got where Regiao = 'North';  
