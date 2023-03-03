@@ -21,19 +21,19 @@ order by Data_lancamento;
     
 ----------------------------------------------------------------------------------------------------------------------------------------------  
 Qual escritor escreveu o maior número de episódios?  
-SELECT Escritor_1, Count(*) as QtdRepeticoes FROM episodios_got  
-GROUP BY Escritor_1  
-HAVING Count(*) > 1  
+select Escritor_1, Count(*) as QtdRepeticoes FROM episodios_got  
+group BY Escritor_1  
+having Count(*) > 1  
 order by QtdRepeticoes desc  
 limit 1;   
 
 ----------------------------------------------------------------------------------------------------------------------------------------------  
 Quais as casas da região "North"?  
-SELECT * FROM got.casas_got where Regiao = 'North';  
+select * FROM got.casas_got where Regiao = 'North';  
   
 ----------------------------------------------------------------------------------------------------------------------------------------------  
 Quais avaliações de usuário são maiores que 1000?  
-SELECT e.Titulo_ep, e.Ep_temporada, e.Data_lancamento, e.Avaliacao_usuario from episodios_got as e where Avaliacao_usuario > 1000;  
+select e.Titulo_ep, e.Ep_temporada, e.Data_lancamento, e.Avaliacao_usuario from episodios_got as e where Avaliacao_usuario > 1000;  
   
   
 ----------------------------------------------------------------------------------------------------------------------------------------------  
