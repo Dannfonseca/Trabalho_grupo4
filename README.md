@@ -41,3 +41,8 @@ Qual o episodio de maior avaliação e qual foi a maior avaliação?
 The Rains of Castamere, Hardhome, Battle of the Bastards, The Winds of Winter   
   
 select Avaliacao, Titulo_ep from episodios_got where Avaliacao between '9.9' and '10';  
+  
+  
+  
+    Apresentação:  
+https://www.canva.com/design/DAFbxA7mwsw/NjUSJkllIrVSrlq2MrZRBg/view?utm_content=DAFbxA7mwsw&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu
